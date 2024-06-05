@@ -12,8 +12,6 @@ public abstract class FileSystem {
 		this.nombre = nombre;
 		this.fecha_creacion = fecha_creacion;
 	}
-	
-	
 	public String getNombre() {
 		return nombre;
 	}
@@ -30,14 +28,10 @@ public abstract class FileSystem {
 		this.fecha_creacion = fecha_creacion;
 	}
 
-
-
-
 	/**
 	* Retorna el espacio total ocupado, incluyendo todo su contenido.
 	*/
-	       public abstract int tamanoTotalOcupado() ;
-	       
+	       public abstract int tamanoTotalOcupado() ; 
 	       
 	    	/**
 	* Retorna el archivo con mayor cantidad de bytes en cualquier nivel del 
